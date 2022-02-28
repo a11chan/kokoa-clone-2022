@@ -1,14 +1,14 @@
 #no-mobile {
-  position: absolute;
+  position: fixed;
   z-index:99;
-  height:100vh;
-  background-color: var(--yellow);
-  width:100vh;
+  top:0;
   display:flex;
   justify-content: center;
   align-items: center;
+  width:100vw;
+  height:100vh;
   font-size: 32px;;
-  top:0;
+  background-color: var(--yellow);
 }
 
 @media screen and (max-width:645px) {

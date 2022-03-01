@@ -34,6 +34,9 @@
 .user-component__title--not-bold {
   font-weight: 400;
 }
+.user-component__column--chnnel-count i {
+  color:var(--sub-font-color);
+}
 .user-component__title {
   font-weight: 600;
   font-size: 22px;
